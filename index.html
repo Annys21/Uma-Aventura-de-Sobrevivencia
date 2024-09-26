@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <title>Perdidos em uma ilha</title>
+</head>
+
+<body>
+    <main>
+
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpg" alt="">
+            <P>Certo dia uma tripilação pirata, sob a liderança destemida do capitão Alaric, cercou um navio mercante,
+                ansiosa pelo tesouro que poderia ser achado. Contudo, enquanto os piratas se entregavam ao frenesi do
+                saque, nuvens escuras moceçaram a se aglomerar no horizonte, anunciando a chegada de uma tempestade
+                feroz que ameaçava transformar a cena de pilhagem em um verdadeiro caos. O que a tripulação faz ao ver a
+                tempestade?</P>
+            <button class="btn-proximo" data-proximo="1">Continuar saqueando</button>
+            <button class="btn-proximo" data-proximo="2">Tentar escapar</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo0.jpg" alt="">
+            <P>A tempestade atinge o navio com força total, suas ondas rugindo como feras indomadas. O céu, envolto em
+                nuvens escuras e ameaçadoras, parecia desabar sobre eles. O navuio começou a se inclinar, a água estava
+                invadindo seus compartimentos, o navio estava prestes a afundar. O que o capitão faz?</P>
+            <button class="btn-proximo" data-proximo="3">Ordem de evacuação</button>
+            <button class="btn-proximo" data-proximo="4">Lutar contra a tempestade</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo2.jpg" alt="">
+            <P>A tripulação, em um esforço desesperado, conseguiu escapar da tempestade, mas não sem consequências. O
+                navio foi atingido por ondas enormes, a embarcação naufragou sob a força implacável do mar. Quando os
+                marinheiros ginalmente despertaram, atordoados e encharcados, encontaram-e em uma praia de uma ilha
+                desconhecida. O que a tripulação faz ao chegar na ilha?</P>
+            <button class="btn-proximo" data-proximo="5">Explorar a ilha</button>
+            <button class="btn-proximo" data-proximo="6">Conseguir um abrigo</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo2.jpg" alt="">
+            <P>A tripulação, exausta e marcada pela batalha contra as forças impiedosas do mar, consegue chegar na costa
+                de uma ilha desconhecida. No entanto, muitos deles morreram, e os que chegaram na ilhas estão com
+                feridas profundas. O que fazer com os feridos?</P>
+            <button class="btn-proximo" data-proximo="7">Cuidar deles primeiro</button>
+            <button class="btn-proximo" data-proximo="8">Ir explorar embusca de recursos primeiro</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo2.jpg" alt="">
+            <P>O navio foi tragicamente despedaçado pelas violentas ondas do mar. Um estrondo ensurdecedor ecoou pelo ar
+                enquanto a madeira se quebrava, os passageiros, em um misto de pânico e desespero, eram lançados ao mar.
+                Muitos sairam mortos, mas entre os que conseguiram sobreviver, acordaram em uma ilha desconhecida. O que
+                fazer agora?</P>
+            <button class="btn-proximo" data-proximo="09">Cosntruir um abrigo</button>
+            <button class="btn-proximo" data-proximo="10">Procurar outros sobreviventes</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo5.jpg" alt="">
+            <P>A tripulação, exausta e intrigada após algumas horas de exploração na ilha, encontrou-se diante de uma
+                caverna misteriosa. Ao adentrarem viram que as paredes estavam cheias de inscrições antigas, símbolos
+                enigmáticos que pareciam contar histórias. A atmosfera estava pesada, os marinheiros sentiam um certo
+                temor. O que fazer?</P>
+            <button class="btn-proximo" data-proximo="11">Entrar mais afundo na caverna</button>
+            <button class="btn-proximo" data-proximo="12">Ignorar e continuar explorando a ilha</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="cenario-passo6.avif" alt="">
+            <P>Enquanto a tripulação se empenhava na construção do abrigo, um silêncio inquietante pairava no ar. De
+                repente, ruídos estranhos começaram a ecoar vindos da densa floresta que os cercava, sons de estalos e
+                sussurros. Cada ranger de galhos despertava a curiosidade e o receio dos sobreviventes, fazendo-os
+                trocar olhares nervosos. O que fazer? </P>
+            <button class="btn-proximo" data-proximo="13">Investigar os ruídos</button>
+            <butto n class="btn-proximo" data-proximo="14">Ficar e se proteger no abrigo</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo2.jpg" alt="">
+            <P>A equipe unida se concentrava nos cuidados médicos dos feridos. Contudo não podiam ignorar o fato de que
+                estavam sem suprimentos para conseguir enfrentar os dias seguintes. O que fazer?</P>
+            <button class="btn-proximo" data-proximo="15">Enviar um grupo embusca de comida</button>
+            <button class="btn-proximo" data-proximo="16">Ficar e esperar alguma ajuda</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo5.jpg" alt="">
+            <P>A tripulação, exausta e intrigada após algumas horas de exploração na ilha, encontrou-se diante de uma
+                caverna misteriosa. Ao adentrarem viram que as paredes estavam cheias de inscrições antigas, símbolos
+                enigmáticos que pareciam contar histórias. A atmosfera estava pesada, os marinheiros sentiam um certo
+                temor. O que fazer?</P>
+            <button class="btn-proximo" data-proximo="11">Entrar mais afundo na caverna</button>
+            <button class="btn-proximo" data-proximo="12">Ignorar e continuar explorando a ilha</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo6.avif" alt="">
+            <P>Enquanto a tripulação se empenhava na construção do abrigo, um silêncio inquietante pairava no ar. De
+                repente, ruídos estranhos começaram a ecoar vindos da densa floresta que os cercava, sons de estalos e
+                sussurros. Cada ranger de galhos despertava a curiosidade e o receio dos sobreviventes, fazendo-os
+                trocar olhares nervosos. O que fazer? </P>
+            <button class="btn-proximo" data-proximo="13">Investigar os ruídos</button>
+            <butto n class="btn-proximo" data-proximo="14">Ficar e se proteger no abrigo</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="cenario-passo5.jpg" alt="">
+            <P>A tripulação, exausta e intrigada após algumas horas de exploração na ilha, encontrou-se diante de uma
+                caverna misteriosa. Ao adentrarem viram que as paredes estavam cheias de inscrições antigas, símbolos
+                enigmáticos que pareciam contar histórias. A atmosfera estava pesada, os marinheiros sentiam um certo
+                temor. O que fazer?</P>
+            <button class="btn-proximo" data-proximo="11">Entrar mais afundo na caverna</button>
+            <button class="btn-proximo" data-proximo="12">Ignorar e continuar explorando a ilha</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo11.avif" alt="">
+            <h1>Os marinheiros entram mais afundo e acabam se deparando com um tesouro amaldiçoado:</h1>
+            <P>Após um tempo descendo mais afundo, a tripulação encontra um tesouro perdido. Cotudo, ao se aproximarem
+                daquela riqueza, uma sensação de inquietação permeava no ar. Quando um dos marinheiros ousou tocar em
+                uma das relíquias brilhantes, um estrondo ensurdecedor ecoou pela caverna, e sombras grotescas começaram
+                a emergir das paredes, como se estivessem aguardando por séculos para serem libertadas. Os monstros com
+                olhos famintos e garras afiadas, atacaram com ferocidade, ceifando vidas sem hesitação, enquanto a
+                tripulação, tomada pelo pânico e pelo desespero, se via presa em um pesadelo sangrento e sem
+                escapatória.</P>
+            <button class="btn-proximo" data-proximo="17">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="cenario-passo12.jpg" alt="">
+            <h1>Os marinheiros ignoram a caverna e continuam procurando pela floresta uma esperança para sobreviver:
+            </h1>
+            <P>Após muito tempo procurando, a tripulação se deparou com uma visão revigorante: uma fonte cristalina de
+                água doce, cercada de árvores frutíferas carregadas de frustos coloridos e suculentos. A cena era como
+                um milagre em meio ao desespero, sorrisos se espalharam entre eles, enquanto as vozes se elevavam em
+                risadas e conversas animadas. Motivados com essa abundância, logo iniciaram os preparativos para a
+                construção de um novo barco, unindo forças e esperanças para um projeto que significava sua
+                sobrevivência.</P>
+            <button class="btn-proximo" data-proximo="18">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="cenario-passo14.jpg" alt="">
+            <h1>Ao ir fundo na floresta em busca dos ruídos, eles encontram uma surpresa amigavel:</h1>
+            <P>Determinados a descobrir a origem dos estrondosos ruídos que ecoavam pela floresta. os membros da
+                tripulação adentraram o matagal denso, cada passo o coração deles pulsavam mais. Foi então que, em meio
+                à vegetação exuberante, eles se depararam com uma criatura extraordinária: um ser com uma altura
+                impressionante que ultrapassa os três metros, seu corpo coberto por longos pelos prateados. Os olhos
+                grandes e expressivos, são de um dourado profundo, face possui um sembrante gentil, comtraços que
+                mesclam características humanas e animais, emanando uma tranquilidade. Começou a gesticular tentando se
+                comunicar, oferecendo sua ajuda na construção do novo navio. A nova amizada ascendeu uma nova esperança
+                entre os marinheiros, imaginando eles saindo daquela ilha. </P>
+            <button class="btn-proximo" data-proximo="18">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <img src="cenario-passo14.jpg" alt="">
+            <h1>A noite cai e com ela vem os perigos, será que nossos marineiros vão sobreviver? Ou morrer por sua
+                causa?</h1>
+            <P>À medida que a noite cai, uma sensação de inquietude e perigo iminente. Os piratas já estvam exaustos
+                pelas adversidades enfrentadas durante o dia. Sussurros e ruídos estranhos ecoavam entre as árvores
+                alertando sobre as ameaças que se aproximavam. Criaturas sombrias, com olhos brilhantes e dentes
+                afiados, espreitavam nas sombras prontas para atacar o abrigo improvisado onde os homens tentavam
+                encontrar refúgio. Coscientes de que a sobrevivência dependia de sua coragem e união, os piratas
+                prepararam-se para enfrentar o terror da noite. Mesmo com coragem os piratas sucunbiram para morte, não
+                eram pareos para os monstros.</P>
+            <button class="btn-proximo" data-proximo="17">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <img src="cenario-passo12.jpg" alt="">
+            <h1>Depois de muita procura os marinheiros encontram água e comida, poém são surpreendidos:</h1>
+            <P>Após sias de dificuldades, os marinheiros encntram uma clareira repleta de árvores frutíferas e um lago
+                de água limpa, o que os enche de alegria. No entanto, essa felicidade é interrompida por monstros que
+                surgem das sombras, atacando-os. Com coragem e união, eles conseguem enfrentar as criaturas e, após a
+                batalha, sentem que a luta reacendeu uma esperança para o futuro.</P>
+            <button class="btn-proximo" data-proximo="18">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <img src="cenario-passo14.jpg" alt="">
+            <h1>Os piratas tinham esperança de que seriam resgatados, mas essa esperança foi diminuido conforme os dias
+                passavam:</h1>
+            <P>A esperança que ardia no coração dos piratas, enquanto aguardavam ansiosamente pelo resgate, começou a se
+                dissipar lentamente. Cada dia que se passava parecia uma eternidade, e a solidão da ilha deserta
+                tornava-se um fardo cada vez mais pesado. A escassez de recursos se tornara insupotável, a fome e a sede
+                afetaram os corpos já debilitados, e metade dos sobreviventes sucumbiu à morte. Aqueles que restaram
+                estvam tão enfraquecidos que mal conseguiram erguer os okhos para horizontem, onde não havia sinal de
+                ajuda. A única coisa que podiam fazer era esperar pela morte, como uma sombra inevitável que se
+                aproximava silenciosamente. A esperança de um salvamento se transformara em um lamento silencioso,
+                enquanto eles aguardavam o fim em meio a desolação.</P>
+            <button class="btn-proximo" data-proximo="17">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <h1>FINAL RUIN</h1>
+            <P>Eita, que pena, parece que você não é muito bom em sobrevivencia, ainda bem que é apenas um jogo. Sugiro
+                que tente novamente, quem sabe você consegue um final bom. Vamos, não é tão difícil.</P>
+            <button class="btn-proximo" data-proximo="1">.</button>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <h1>FINAL BOM</h1>
+            <P>Parabéns!! Você conseguiu um final bom, tenho certeza que você é muito bom em sobrevivencia, estou muito
+                feliz. Que tal jogar novamente e tentar conseguir os outros finais.</P>
+            <button class="btn-proximo" data-proximo="1">.</button>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

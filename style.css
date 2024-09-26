@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(33, 46, 122);
+    color: rgb(94, 137, 216);
+    font-family: "Handlee", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(40, 45, 114);
+    color: rgb(94, 137, 216);
+    font-family: "Handlee", cursive;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 80%;
+}
